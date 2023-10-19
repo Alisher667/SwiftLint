@@ -11,28 +11,6 @@ copts = ["-enable-upcoming-feature", "ExistentialAny"]
 # Targets
 
 swift_library(
-    name = "SwiftLintCoreMacrosLib",
-    module_name = "SwiftLintCoreMacros",
-    srcs = glob(["Source/SwiftLintCoreMacros/*.swift"]),
-    visibility = ["//visibility:public"],
-    deps = [
-        "@SwiftSyntax//:SwiftCompilerPlugin_opt",
-        "@SwiftSyntax//:SwiftSyntaxMacros_opt",
-    ],
-    copts = copts,
-)
-
-swift_compiler_plugin(
-    name = "SwiftLintCoreMacros",
-    srcs = glob(["Source/SwiftLintCoreMacros/*.swift"]),
-    deps = [
-        "@SwiftSyntax//:SwiftCompilerPlugin_opt",
-        "@SwiftSyntax//:SwiftSyntaxMacros_opt",
-    ],
-    copts = copts,
-)
-
-swift_library(
     name = "SwiftLintCore",
     srcs = glob(["Source/SwiftLintCore/**/*.swift"]),
     module_name = "SwiftLintCore",
@@ -50,9 +28,6 @@ swift_library(
         "@platforms//os:linux": ["@com_github_krzyzanowskim_cryptoswift//:CryptoSwift"],
         "//conditions:default": [":DyldWarningWorkaround"],
     }),
-    plugins = [
-        ":SwiftLintCoreMacros",
-    ],
     copts = copts,
 )
 
