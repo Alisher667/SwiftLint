@@ -1,10 +1,10 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct XCTSpecificMatcherConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = XCTSpecificMatcherRule
 
-    @MakeAcceptableByConfigurationElement
+    
     enum Matcher: String, CaseIterable {
         case oneArgumentAsserts = "one-argument-asserts"
         case twoArgumentAsserts = "two-argument-asserts"

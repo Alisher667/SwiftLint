@@ -3,7 +3,7 @@ import SwiftLintCore
 // swiftlint:disable:next blanket_disable_command
 // swiftlint:disable let_var_whitespace
 
-@AutoApply
+ 
 struct UnusedDeclarationConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = UnusedDeclarationRule
 

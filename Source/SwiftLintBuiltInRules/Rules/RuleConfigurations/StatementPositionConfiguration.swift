@@ -1,10 +1,10 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct StatementPositionConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = StatementPositionRule
 
-    @MakeAcceptableByConfigurationElement
+    
     enum StatementModeConfiguration: String {
         case `default` = "default"
         case uncuddledElse = "uncuddled_else"

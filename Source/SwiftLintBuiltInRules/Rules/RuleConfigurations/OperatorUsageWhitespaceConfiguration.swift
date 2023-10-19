@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct OperatorUsageWhitespaceConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = OperatorUsageWhitespaceRule
 

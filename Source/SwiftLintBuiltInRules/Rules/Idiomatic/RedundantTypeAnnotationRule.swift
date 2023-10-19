@@ -12,7 +12,7 @@ struct RedundantTypeAnnotationRule: OptInRule, SubstitutionCorrectableRule {
         nonTriggeringExamples: [
             Example("var url = URL()"),
             Example("var url: CustomStringConvertible = URL()"),
-            Example("@IBInspectable var color: UIColor = UIColor.white"),
+            Example("@IBInspectable var color = UIColor.white"),
             Example("""
             enum Direction {
                 case up

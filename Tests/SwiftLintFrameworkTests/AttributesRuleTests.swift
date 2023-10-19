@@ -56,7 +56,7 @@ class AttributesRuleTests: SwiftLintTestCase {
         let nonTriggeringExamples = [
             Example("""
             @IBDesignable open class TagListView: UIView {
-                @IBInspectable open dynamic var textColor: UIColor = UIColor.white {
+                @IBInspectable open dynamic var textColor = UIColor.white {
                     didSet {}
                 }
             }
@@ -73,7 +73,7 @@ class AttributesRuleTests: SwiftLintTestCase {
             Example("""
             @IBDesignable open class TagListView: UIView {
                 @IBInspectable
-                open dynamic ↓var textColor: UIColor = UIColor.white {
+                open dynamic ↓var textColor = UIColor.white {
                     didSet {}
                 }
             }

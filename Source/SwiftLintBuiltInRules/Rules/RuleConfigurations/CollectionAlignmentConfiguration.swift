@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct CollectionAlignmentConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = CollectionAlignmentRule
 

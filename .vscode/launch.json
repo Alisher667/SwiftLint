@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug swiftlint",
+            "program": "${workspaceFolder:SwiftLint}/.build/debug/swiftlint",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftLint}",
+            "preLaunchTask": "swift: Build Debug swiftlint"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release swiftlint",
+            "program": "${workspaceFolder:SwiftLint}/.build/release/swiftlint",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftLint}",
+            "preLaunchTask": "swift: Build Release swiftlint"
+        }
+    ]
+}

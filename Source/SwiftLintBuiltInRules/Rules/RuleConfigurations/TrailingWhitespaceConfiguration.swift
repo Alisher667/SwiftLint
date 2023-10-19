@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct TrailingWhitespaceConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = TrailingWhitespaceRule
 

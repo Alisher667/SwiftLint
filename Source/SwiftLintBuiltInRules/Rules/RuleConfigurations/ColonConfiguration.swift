@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct ColonConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = ColonRule
 

@@ -3,7 +3,7 @@ import SwiftLintCore
 // swiftlint:disable:next blanket_disable_command
 // swiftlint:disable let_var_whitespace
 
-@AutoApply
+ 
 struct TestCaseAccessibilityConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = TestCaseAccessibilityRule
 

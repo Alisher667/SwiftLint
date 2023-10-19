@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct PrivateOverFilePrivateConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = PrivateOverFilePrivateRule
 

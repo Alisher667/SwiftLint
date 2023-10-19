@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct AttributesConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = AttributesRule
 

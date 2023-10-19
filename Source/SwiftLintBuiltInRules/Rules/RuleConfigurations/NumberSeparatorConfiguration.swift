@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct NumberSeparatorConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = NumberSeparatorRule
 

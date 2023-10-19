@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct InclusiveLanguageConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = InclusiveLanguageRule
 

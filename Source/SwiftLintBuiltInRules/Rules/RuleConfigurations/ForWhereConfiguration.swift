@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct ForWhereConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = ForWhereRule
 

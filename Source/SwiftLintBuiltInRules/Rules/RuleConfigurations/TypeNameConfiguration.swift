@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct TypeNameConfiguration: RuleConfiguration {
     typealias Parent = TypeNameRule
 

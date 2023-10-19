@@ -1,10 +1,10 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct ImplicitReturnConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = ImplicitReturnRule
 
-    @MakeAcceptableByConfigurationElement
+    
     enum ReturnKind: String, CaseIterable, Comparable {
         case closure
         case function

@@ -27,7 +27,7 @@ struct TransitiveModuleConfiguration<Parent: Rule>: Equatable, AcceptableByConfi
     }
 }
 
-@AutoApply
+ 
 struct UnusedImportConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = UnusedImportRule
 

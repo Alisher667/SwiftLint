@@ -1,16 +1,23 @@
 import SwiftLintCore
 
-@AutoApply
 struct MultilineArgumentsConfiguration: SeverityBasedRuleConfiguration {
+    mutating func apply(configuration: Any) throws {
+        
+    }
+    
+    static func == (lhs: MultilineArgumentsConfiguration, rhs: MultilineArgumentsConfiguration) -> Bool {
+        
+    }
+    
     typealias Parent = MultilineArgumentsRule
-
-    @MakeAcceptableByConfigurationElement
+    
+    
     enum FirstArgumentLocation: String {
         case anyLine = "any_line"
         case sameLine = "same_line"
         case nextLine = "next_line"
     }
-
+    
     @ConfigurationElement(key: "severity")
     private(set) var severityConfiguration = SeverityConfiguration<Parent>(.warning)
     @ConfigurationElement(key: "first_argument_location")

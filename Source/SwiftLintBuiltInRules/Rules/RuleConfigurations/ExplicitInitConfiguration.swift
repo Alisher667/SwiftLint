@@ -1,4 +1,4 @@
-@AutoApply
+ 
 struct ExplicitInitConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = ExplicitInitRule
 

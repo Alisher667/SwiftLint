@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct FunctionParameterCountConfiguration: RuleConfiguration {
     typealias Parent = FunctionParameterCountRule
 

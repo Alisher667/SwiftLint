@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct EmptyCountConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = EmptyCountRule
 

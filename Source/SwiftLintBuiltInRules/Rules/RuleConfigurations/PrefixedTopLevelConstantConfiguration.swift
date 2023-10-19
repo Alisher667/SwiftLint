@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct PrefixedTopLevelConstantConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = PrefixedTopLevelConstantRule
 

@@ -1,6 +1,6 @@
 import SwiftLintCore
 
-@MakeAcceptableByConfigurationElement
+
 enum TypeContent: String {
     case `case` = "case"
     case typeAlias = "type_alias"
@@ -19,7 +19,7 @@ enum TypeContent: String {
     case deinitializer = "deinitializer"
 }
 
-@AutoApply
+ 
 struct TypeContentsOrderConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = TypeContentsOrderRule
 

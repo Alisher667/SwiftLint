@@ -1,7 +1,7 @@
 import SourceKittenFramework
 import SwiftLintCore
 
-@AutoApply
+ 
 struct CyclomaticComplexityConfiguration: RuleConfiguration {
     typealias Parent = CyclomaticComplexityRule
 

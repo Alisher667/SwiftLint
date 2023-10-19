@@ -1,10 +1,10 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct ExplicitTypeInterfaceConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = ExplicitTypeInterfaceRule
 
-    @MakeAcceptableByConfigurationElement
+    
     enum VariableKind: String, CaseIterable {
         case instance
         case local

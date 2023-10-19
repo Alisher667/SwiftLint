@@ -1,10 +1,10 @@
 import SwiftLintCore
 
-@AutoApply
+ 
 struct SortedImportsConfiguration: SeverityBasedRuleConfiguration {
     typealias Parent = SortedImportsRule
 
-    @MakeAcceptableByConfigurationElement
+    
     enum SortedImportsGroupingConfiguration: String {
         /// Sorts import lines based on any import attributes (e.g. `@testable`, `@_exported`, etc.), followed by a case
         /// insensitive comparison of the imported module name.
